@@ -1,56 +1,93 @@
+var express = require('express');
+var util = require('util');
 var mongoose = require('mongoose');
-
 var casino = require('./casinoModel.js');
 var CasinoGameModel = casino.CasisoGameModel;
 
-mongoose.connect('mongodb://localhost/mongo-tutos');
+var https = require('https');
 
-var db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error:'));
+//http://expressjs.com/
 
-db.once('open', function callback () {
-  console.log('logged in');
+var app = express();
 
-  CasinoGameModel.find({}, function(err, games){
-	console.log("Games in database : %s", games.length);
-	for(var i = 0; i < games.length; i++) {
-		console.log('Game : %s found', games[i].name);
-	}
-  });
-  
+app.get('/hello', function(req, res){
+  res.send(req.query.name === undefined ? 'Hello world ' : util.format('Hello %s', req.query.name));
 });
 
-/*
-Sample  
-var game = new CasinoGameModel({
-  id: 364,
-  name: 'Deuces Wild',
-  supplier: 'QuickFire',
-  categoryId: 637,
-  categoryName: 'All',
-  linkImage: 'https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_DeucesWild.jpg',
-  launcherImage: 'https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Deuces_Wild.jpg',
-  carouselImage: 'https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Deuces_Wild.jpg'
+app.get('/bye/:name?', function(req, res){
+  res.send(req.params.name === undefined ? 'Bye world ' : util.format('Hello %s', req.params.name));
 });
-//game.save();
-console.log(game);
-*/
-//Load data from file
-var casinoGames = require('./casinoGames.json');
 
-casinoGames.forEach(function(game) {
-	console.log('JSON data : %s found', game.name);
-	var game = new CasinoGameModel(game);
+app.get('/casinoGames/:gameId?', function(req, res){
+
+	var gameId = req.params.gameId;
 	
+	if(gameId === undefined) {
+		CasinoGameModel.find({}, function(err, result){
+		   if(!err) 
+	           res.send(result);		   
+		});
+	} else {
+		CasinoGameModel.findOne({ id : gameId}, function(err, result){
+		   if(!err) 
+	           res.send(result);		   
+		});
+	}
+ 
+});
+
+
+var getOptions = function(gameId) {
+	return {
+			hostname: 'betclicstage.net',
+			path: util.format('/st2/svcmobile/api/casino/launchgame/%s/0', gameId),
+			headers: {
+				'X-Client' : '{"userId":-1,"ip":"10.56.45.28","oddsFormat":"Uk","site":"GbEn","channelId":"BetclicMobile","universe":"Casino","session":null}',
+				'Content-Type' : 'application/json',
+				'accept': '*/*',
+				'Accept-Encoding': 'gzip,deflate,sd',
+				'Cache-Control': 'no-cache'
+				
+			},
+			agent: false};
+			
+};
+
+app.get('/launchGame/:gameId', function(req, res){
+	var options = getOptions(req.params.gameId);
+	
+	https.get(options, function(getRes) {
+	  console.log("statusCode: ", getRes.statusCode);
+	  console.log("headers: ", getRes.headers);
+	  getRes.on('data', function(data) {
+		res.setHeader('Content-Type', 'application/json');
+		res.send({ url : JSON.parse(data) });		   
+		process.stdout.write(data);
+	  });
+
+	}).on('error', function(e) {
+	  console.error(e);
+	});
+			
+	
+});
+
+
+app.listen(3000);
+
+
+mongoose.connect('mongodb://localhost/mongo-tutos');
+/*** Adding games from json file in case nothing is in the database ***/
+var db = mongoose.connection;
+var casinoGames = require('./casinoGames.json');
+casinoGames.forEach(function(game) {
+	var game = new CasinoGameModel(game);
 	CasinoGameModel.findOne({ 'id' : game.id}, function(err, result){
 		if(err)
 			console.log('Error %s', err)
 		else if(result === null){ //game with id is not in the DB so we can add it.
-			console.log('Adding ? %s to games collection', game.name);
 			game.save();
-		}  else if(result !== null){
-			console.log('%s is already in collections', game.name);
-		}
+		}  
 	});
 });
 
