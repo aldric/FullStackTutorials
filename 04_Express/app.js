@@ -79,17 +79,7 @@ app.listen(3000);
 mongoose.connect('mongodb://localhost/mongo-tutos');
 /*** Adding games from json file in case nothing is in the database ***/
 var db = mongoose.connection;
-var casinoGames = require('./casinoGames.json');
-casinoGames.forEach(function(game) {
-	var game = new CasinoGameModel(game);
-	CasinoGameModel.findOne({ 'id' : game.id}, function(err, result){
-		if(err)
-			console.log('Error %s', err)
-		else if(result === null){ //game with id is not in the DB so we can add it.
-			game.save();
-		}  
-	});
-});
+
 
 
 

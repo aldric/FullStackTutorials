@@ -22,5 +22,20 @@
             </li>
         </ul>
     </div>
-    <!-- /.navbar-collapse -->
-</nav>
+    <div id="casino-lobby">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 flip-container slide"
+                 ng-repeat="game in games | filter:searchText">
+                <div ng-class="$index % 3 == 0 ? 'flipper' : $index % 3 == 1 ? 'flipper-Z' : 'flipper-X' "
+                     ng-click="launchGame(game.id)">
+                    <div class="front">
+                        <img ng-src="{{game.launcherImage}}" class="img-responsive"/>
+                    </div>
+                    <div class="back">
+                        <img ng-src="images/bg.png" class="img-responsive"/>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>

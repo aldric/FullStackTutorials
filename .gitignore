@@ -1,5 +1,17 @@
 02_Modules/node_modules
 03_MongoDB/node_modules
+04_Express/node_modules
+
+.idea/
+
+05_Angular/node_modules
+05_Angular/public
+05_Angular/.tmp
+05_Angular/.sass-cache
+05_Angular/app/bower_components
+05_Angular/heroku
+05_Angular/views
+05_Angular/dist
 
 
 #################
