@@ -1,0 +1,322 @@
+[
+    {
+        "id": 383,
+        "name": "Deck The Halls",
+        "supplier": "QuickFire",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_Deck_the_halls.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Deck_the_halls.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Deck_the_halls.jpg"
+    },
+    {
+        "id": 832,
+        "name": "Thunderstruck",
+        "supplier": "QuickFire",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_thunderstruck.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_thunderstruck.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_thunderstruck.jpg"
+    },
+    {
+        "id": 386,
+        "name": "Agent Jane Blonde",
+        "supplier": "QuickFire",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_Jane_Blonde.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Jane_Blonde.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Jane_Blonde.jpg"
+    },
+    {
+        "id": 384,
+        "name": "Starburst",
+        "supplier": "NetEnt",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_Starburst.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Starburst.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Starburst.jpg"
+    },
+    {
+        "id": 387,
+        "name": "Ladies Nite",
+        "supplier": "QuickFire",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_Ladies_Nite.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Ladies_Nite.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Ladies_Nite.jpg"
+    },
+    {
+        "id": 385,
+        "name": "Adventure Palace",
+        "supplier": "QuickFire",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_Adventure_Palace.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Adventure_Palace.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Adventure_Palace.jpg"
+    },
+    {
+        "id": 388,
+        "name": "Avalon",
+        "supplier": "QuickFire",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_Avalon.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Avalon.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Avalon.jpg"
+    },
+    {
+        "id": 949,
+        "name": "Disco Spins",
+        "supplier": "NetEnt",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_Disco_Spins_Touch.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Disco_Spins_Touch.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Disco_Spins_Touch.jpg"
+    },
+    {
+        "id": 364,
+        "name": "Deuces Wild",
+        "supplier": "QuickFire",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_DeucesWild.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Deuces_Wild.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Deuces_Wild.jpg"
+    },
+    {
+        "id": 365,
+        "name": "European Roulette",
+        "supplier": "QuickFire",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_Euro_Roulette.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Euro_Roulette.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Euro_Roulette.jpg"
+    },
+    {
+        "id": 366,
+        "name": "Jacks Or Better",
+        "supplier": "QuickFire",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_jacksorbetter.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Jack_better.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Jacks_Better.jpg"
+    },
+    {
+        "id": 367,
+        "name": "Aces and Faces",
+        "supplier": "QuickFire",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_Aces_Faces.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Aces_Faces.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Aces_Faces.jpg"
+    },
+    {
+        "id": 368,
+        "name": "Double Double bonus",
+        "supplier": "QuickFire",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_DoubleDouble.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_DoubleDoubleBonus.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_DoubleDoubleBonus.jpg"
+    },
+    {
+        "id": 369,
+        "name": "Aces And Eights",
+        "supplier": "QuickFire",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_Aces_Eights.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Aces_Eights.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Aces_Eights.jpg"
+    },
+    {
+        "id": 370,
+        "name": "Bonus Deuces Wild",
+        "supplier": "QuickFire",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_BonusDeucesWild.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_BonusDeucesWild.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Bonus_Deuces.jpg"
+    },
+    {
+        "id": 371,
+        "name": "European Blackjack Gold",
+        "supplier": "QuickFire",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Euro_Blackjack.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Euro_Blackjack.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Euro_Blackjack.jpg"
+    },
+    {
+        "id": 372,
+        "name": "Mermaids Millions",
+        "supplier": "QuickFire",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_Mermaids-Millions.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Mermaids_Millions.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Mermaids_Millions.jpg"
+    },
+    {
+        "id": 373,
+        "name": "Tomb Raider",
+        "supplier": "QuickFire",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_TombRaider.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_TombRaider.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Tomb_Raider.jpg"
+    },
+    {
+        "id": 374,
+        "name": "Jack Hammer",
+        "supplier": "NetEnt",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_Jack_Hammer.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_JackHammer.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Jack_Hammer.jpg"
+    },
+    {
+        "id": 375,
+        "name": "Gonzo's Quest",
+        "supplier": "NetEnt",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_GonzosQuest.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Gonzos_Quest.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Gonzos_Quest.jpg"
+    },
+    {
+        "id": 376,
+        "name": "Blackjack Pro",
+        "supplier": "NetEnt",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_BlackJack.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Blackjack_Pro.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Blackjack_Pro.jpg"
+    },
+    {
+        "id": 377,
+        "name": "Flowers",
+        "supplier": "NetEnt",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_Flowers.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Flowers.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Flowers.jpg"
+    },
+    {
+        "id": 378,
+        "name": "Subtopia",
+        "supplier": "NetEnt",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_Subtopia.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Subtopia.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Subtopia.jpg"
+    },
+    {
+        "id": 379,
+        "name": "Mythic Maiden",
+        "supplier": "NetEnt",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_MythicMaiden.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Mythic_Maiden.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Mythic_Maiden.jpg"
+    },
+    {
+        "id": 380,
+        "name": "Victorious",
+        "supplier": "NetEnt",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_Victorious.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Victorious.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Victorious.jpg"
+    },
+    {
+        "id": 389,
+        "name": "Jack Hammer 2",
+        "supplier": "NetEnt",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_Jackhammer_2.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Jackhammer_2.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Jackhammer_2.jpg"
+    },
+    {
+        "id": 390,
+        "name": "Frankenstein",
+        "supplier": "NetEnt",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_Frankenstein.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Frankenstein.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Frankenstein.jpg"
+    },
+    {
+        "id": 391,
+        "name": "Lucky Angler",
+        "supplier": "NetEnt",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_LUCKYANGLER.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_LUCKYANGLER.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_LUCKYANGLER.jpg"
+    },
+    {
+        "id": 392,
+        "name": "Fruit Shop",
+        "supplier": "NetEnt",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_FRUITSHOP.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_FRUITSHOP.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_FRUITSHOP.jpg "
+    },
+    {
+        "id": 394,
+        "name": "Tally Ho",
+        "supplier": "QuickFire",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_TALLYHO.jpg ",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_TALLYHO.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_TALLYHO.jpg"
+    },
+    {
+        "id": 395,
+        "name": "Roulette touch",
+        "supplier": "NetEnt",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_ROULETTE_TOUCH.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_ROULETTE_TOUCH.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_ROULETTE_TOUCH.jpg"
+    },
+    {
+        "id": 382,
+        "name": "Burning Desire",
+        "supplier": "QuickFire",
+        "categoryId": 637,
+        "categoryName": "All",
+        "linkImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/160x120_Buring_Desire.jpg",
+        "launcherImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/308x160_Buring_Desire.jpg",
+        "carouselImage": "https://betclick.hs.llnwd.net/e1/pict/Casino/05_mobile/616x320_Buring_Desire.jpg"
+    }
+]

@@ -13,11 +13,11 @@ db.once('open', function callback () {
 
   CasinoGameModel.find({}, function(err, games){
 	console.log("Games in database : %s", games.length);
-	games.forEach(function(game){
-		console.log('Game : %s found', game.name);
-	});
-	
+	for(var i = 0; i < games.length; i++) {
+		console.log('Game : %s found', games[i].name);
+	}
   });
+  
 });
 
 /*

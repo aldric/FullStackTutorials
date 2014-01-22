@@ -1,0 +1,12 @@
+{
+  "name": "modules_tutorial",
+  "version": "0.0.0",
+  "dependencies": {
+    "mongodb": "~1.3.23",
+    "mongoose": "~3.8.4"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
