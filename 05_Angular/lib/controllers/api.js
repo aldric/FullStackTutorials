@@ -45,6 +45,38 @@ var getOptions = function (gameId) {
 
 };
 
+exports.casinoGamesByCategories = function (req, res) {
+  var opt = {
+    hostname: 'betclicstage.net',
+    path: '/st2/svcmobile/api/casino/gamesbycategory',
+    headers: {
+      'X-Client': '{"userId":-1,"ip":"10.56.45.28","oddsFormat":"Uk","site":"GbEn","channelId":"BetclicMobile","universe":"Casino","session":null}',
+      'Content-Type': 'application/json',
+      'accept': '*/*',
+      'Accept-Encoding': 'gzip,deflate,sd',
+      'Cache-Control': 'no-cache'
+    },
+    agent: false};
+  https.get(opt, function (request) {
+    console.log("statusCode: ", request.statusCode);
+    console.log("headers: ", request.headers);
+    var data = '';
+    request.on('data', function (chunk) {
+      data += chunk;
+      console.log('ondata');
+    });
+
+    request.on('error', function (e) {
+      console.error(e);
+    });
+
+    request.on('end', function(){
+      console.log('onend');
+      res.json(JSON.parse(data));
+    });
+  });
+};
+
 exports.launchCasinoGame = function (req, res) {
   var options = getOptions(req.params.gameId);
   https.get(options,function (getRes) {
@@ -59,3 +91,7 @@ exports.launchCasinoGame = function (req, res) {
     });
 };
 
+exports.goHome = function (req, res) {
+  console.log('lalalala');
+  res.redirect('/casino');
+};

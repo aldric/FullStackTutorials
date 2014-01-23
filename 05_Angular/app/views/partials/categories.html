@@ -1,0 +1,21 @@
+<div ng-include="'partials/navbar'"></div>
+<ul class="nav nav-pills nav-justified" ng-init="search.categoryTitle = ('')  ">
+    <li ng-class=" search.categoryTitle ==  '' ? 'active' : ''" ng-click="search.categoryTitle = '' ">
+        <a>All<span class="badge"></span></a>
+    </li>
+    <li ng-repeat="games in gamesByCategories" ng-class="  search.categoryTitle ==  games.categoryTitle ? 'active' : ''"
+        ng-click="search.categoryTitle = games.categoryTitle ">
+        <a>{{ games.categoryTitle }}<span class="badge">{{ games.CasinoGames.length }}</span></a>
+    </li>
+    <li>
+        <input type="text" class="form-control" placeholder="Search" ng-model="searchText.name">
+    </li>
+</ul>
+<hr/>
+
+<div ng-repeat="category in gamesByCategories | filter:search.categoryTitle">
+    <div ng-repeat="game in category.CasinoGames | filter:searchText.name">
+        <div ng-include="'partials/game'"></div>
+    </div>
+</div>
+<div ng-include="'partials/launchGame'"></div>

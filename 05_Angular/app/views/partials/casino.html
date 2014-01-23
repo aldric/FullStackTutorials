@@ -1,41 +1,13 @@
-<nav class="navbar navbar-default" role="navigation">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand"><img src="images/com.png"/></a>
+<div ng-include="'partials/navbar'"></div>
+<div id="casino-lobby">
+    <div class="row" style="padding:10px">
+        <input type="text" class="form-control" placeholder="Filter games" ng-model="searchText.name">
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-            <li>
-                <form class="navbar-form navbar-left" role="search">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search" ng-model="searchText.$">
-                    </div>
-                </form>
-            </li>
-        </ul>
-    </div>
-    <div id="casino-lobby">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 flip-container slide"
-                 ng-repeat="game in games | filter:searchText">
-                <div ng-class="$index % 3 == 0 ? 'flipper' : $index % 3 == 1 ? 'flipper-Z' : 'flipper-X' "
-                     ng-click="launchGame(game.id)">
-                    <div class="front">
-                        <img ng-src="{{game.launcherImage}}" class="img-responsive"/>
-                    </div>
-                    <div class="back">
-                        <img ng-src="images/bg.png" class="img-responsive"/>
-                    </div>
-                </div>
-            </div>
-
+    <div class="row">
+        <div ng-repeat="game in games | filter:searchText.name">
+            <div ng-include="'partials/game'"></div>
         </div>
     </div>
+
+</div>
+<div ng-include="'partials/launchGame'"></div>

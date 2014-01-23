@@ -70,6 +70,10 @@ body {
 /******************************/
 /*entire container, keeps perspective */
 
+.modal-body {
+    text-align: center;
+}
+
 .navbar-brand img {
     height:18px;
 }

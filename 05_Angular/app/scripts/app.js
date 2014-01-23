@@ -11,12 +11,16 @@ angular.module('05AngularApp', [
   .config(function ($routeProvider, $locationProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'partials/main',
-        controller: 'MainCtrl'
+        templateUrl: 'partials/casino',
+        controller: 'CasinoCtrl'
       })
       .when('/casino', {
         templateUrl: 'partials/casino',
         controller: 'CasinoCtrl'
+      })
+      .when('/casino/categories', {
+        templateUrl: 'partials/categories',
+        controller: 'CasinoByCategoriesCtrl'
       })
       .otherwise({
         redirectTo: '/'

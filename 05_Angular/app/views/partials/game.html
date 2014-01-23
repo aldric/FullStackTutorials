@@ -1,0 +1,11 @@
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 flip-container slide">
+    <div ng-class="$index % 3 == 0 ? 'flipper' : $index % 3 == 1 ? 'flipper-Z' : 'flipper-X' "
+         data-toggle="modal" data-target="#myModal" ng-click="launchGame(game.id)">
+        <div class="front">
+            <img ng-src="{{game.launcherImage}}" class="img-responsive"/>
+        </div>
+        <div class="back">
+            <img ng-src="images/bg.png" class="img-responsive"/>
+        </div>
+    </div>
+</div>

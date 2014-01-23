@@ -1,9 +1,9 @@
 'use strict';
 
 var express = require('express'),
-    path = require('path'),
-    fs = require('fs'),
-    mongoose = require('mongoose');
+  path = require('path'),
+  fs = require('fs'),
+  mongoose = require('mongoose');
 
 /**
  * Main application file
@@ -40,6 +40,8 @@ require('./lib/routes')(app);
 app.listen(config.port, function () {
   console.log('Express server listening on port %d in %s mode', config.port, app.get('env'));
 });
+
+
 
 // Expose app
 exports = module.exports = app;
