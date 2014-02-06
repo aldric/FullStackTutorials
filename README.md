@@ -28,6 +28,20 @@ http://yeoman.io/
 For info I have used the following generator : angular-fullstack
 
 Tutorial to debug node application website :
+
 http://www.kevgriffin.com/debugging-node-js-projects/
 http://docs.nodejitsu.com/articles/getting-started/how-to-debug-nodejs-applications
+
+Here are the tools used :
+
+http://gruntjs.com/
+http://bower.io/
+http://nodejs.org/
+http://www.angularjs.org/
+http://expressjs.com/api.html
+http://pivotal.github.io/jasmine/
+http://karma-runner.github.io/0.10/index.html
+http://yeoman.io/
+
+
 
