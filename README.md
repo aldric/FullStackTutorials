@@ -39,7 +39,7 @@ http://bower.io/
 http://nodejs.org/
 http://www.angularjs.org/
 http://expressjs.com/api.html
-http://pivotal.github.io/jasmine/
+https://jasmine.github.io/
 http://karma-runner.github.io/0.10/index.html
 http://yeoman.io/
 
